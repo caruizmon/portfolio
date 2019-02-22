@@ -1,0 +1,53 @@
+.container{
+  max-width: 2000px;
+  display: flex;
+  background-color: lightblue;
+  justify-content:flex-start;
+
+
+}
+.item{
+  width: 90px;
+  height: 90px;
+  background-color: green;
+  margin: 20px;
+  padding: 20px;
+  background-size: cover;
+
+
+}
+.cajapeq{
+  background-image: url(./img/pattern.jpg);
+  background-size: cover
+  background-repeat: repeat;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ORANGE{
+background-image: url(./img/ORANGE.png);
+background-position: center;
+}
+.PURPLE{
+  background-image: url(./img/PURPLE.png);
+  background-position: center;
+  }
+
+.BLUE{
+  background-image: url(./img/BLUE.png);
+  background-position: center;
+}
+.PINK{
+  background-image: url(./img/PINK.png);
+  background-position: center;
+}
+@media (max-width: 400px) {
+
+
+  .item{
+    flex: 0 1 100%;
+    height: 50vh
+
+  }
+}
